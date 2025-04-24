@@ -62,7 +62,7 @@ const SearchPage = () => {
           />
           {searchQuery && (
             <button className="absolute inset-y-0 right-0 flex items-center pr-3" onClick={() => setSearchQuery("")}>
-              <img className="w-5 h-5" src={assets.close_icon || assets.plus_icon} alt="Clear" />
+            
             </button>
           )}
         </div>
